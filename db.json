@@ -1,22 +1,52 @@
 {
-  "namirnice": [
+  "movies": [
     {
       "id": 1,
-      "naziv": "grilovana piletina",
-      "gramaza": 300,
-      "cena": 300
+      "name": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "actors": [{ "id": 1 }, { "id": 2 }, { "id": 3 }, { "id": 4 }]
     },
     {
       "id": 2,
-      "naziv": "krompir",
-      "gramaza": 250,
-      "cena": 140
+      "name": "Inglourious Basterds",
+      "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+      "actors": [{ "id": 5 }, { "id": 6 }, { "id": 7 }]
     },
     {
       "id": 3,
-      "naziv": "biftek",
-      "gramaza": 300,
-      "cena": 1300
+      "name": "Kill Bill: Vol. 1",
+      "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+      "actors": [{ "id": 4 }, { "id": 8 }, { "id": 9 }]
+    },
+    {
+      "id": 4,
+      "name": "The Prestige",
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "actors": [{ "id": 10 }, { "id": 11 }, { "id": 12 }]
+    },
+    {
+      "id": 5,
+      "name": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "actors": [{ "id": 13 }, { "id": 14 }, { "id": 15 }, { "id": 16 }]
     }
+  ],
+  "actors": [
+    { "id": 1, "name": "John Travolta", "born": 1954 },
+    { "id": 2, "name": "Samuel L. Jackson", "born": 1948 },
+    { "id": 3, "name": "Bruce Willis", "born": 1955 },
+    { "id": 4, "name": "Uma Thurman", "born": 1970 },
+    { "id": 5, "name": "Brad Pitt", "born": 1963 },
+    { "id": 6, "name": "Michael Fassbender", "born": 1977 },
+    { "id": 7, "name": "Mélanie Laurent", "born": 1983 },
+    { "id": 8, "name": "Lucy Liu", "born": 1968 },
+    { "id": 9, "name": "Michael Madsen", "born": 1957 },
+    { "id": 10, "name": "Hugh Jackman", "born": 1968 },
+    { "id": 11, "name": "Christian Bale", "born": 1974 },
+    { "id": 12, "name": "Michael Caine", "born": 1933 },
+    { "id": 13, "name": "Leonardo DiCaprio", "born": 1974 },
+    { "id": 14, "name": "Joseph Gordon-Levitt", "born": 1981 },
+    { "id": 15, "name": "Ellen Page", "born": 1987 },
+    { "id": 16, "name": "Tom Hardy", "born": 1977 }
   ]
 }

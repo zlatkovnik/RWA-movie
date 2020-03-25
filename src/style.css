@@ -1,0 +1,44 @@
+.movies-container {
+  padding-bottom: 20px;
+  background-color: #5c5393;
+  color: white;
+  border: 1px solid #211858;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-container {
+  border: 1px solid #ddd;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+}
+
+.actors-container {
+  background-color: #eee;
+  align-self: auto;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 200px;
+  margin-top: 20px;
+  background-color: #3b3176;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #211858;
+}
+
+.error {
+  color: red;
+  background-color: black;
+}

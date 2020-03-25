@@ -1,3 +1,8 @@
-import { vratiNamirnice } from "./vratiNamernice";
+import Movies from "./movies.js";
+import "./style.css";
 
-vratiNamirnice().then(p => console.log(p));
+const movies = new Movies(document.body);
+movies.draw();
+movies.fetchMovies();
+
+//Nikola Zlatkov, 16593
