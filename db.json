@@ -1,0 +1,22 @@
+{
+  "namirnice": [
+    {
+      "id": 1,
+      "naziv": "grilovana piletina",
+      "gramaza": 300,
+      "cena": 300
+    },
+    {
+      "id": 2,
+      "naziv": "krompir",
+      "gramaza": 250,
+      "cena": 140
+    },
+    {
+      "id": 3,
+      "naziv": "biftek",
+      "gramaza": 300,
+      "cena": 1300
+    }
+  ]
+}
